@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <title>Address Book Demo</title>
+        <link rel="icon" type="image/png" href="favicon-32x32.png">
+        <link rel="stylesheet" href="style.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!-- Contact Form -->
+        <div id="contact-form-container">
+            <!-- Error Message -->
+            <div id="error-message" class="hidden"></div> 
+            <form id="contact-form">
+                <span id="contact-form-title">Add Contact</span>
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="text" id="surname" placeholder="Surname" required>
+                <input type="number" id="phone" placeholder="Phone Number" maxlength="11" required >
+                <input type="text" id="address" placeholder="Address" required>
+                <button id="add-btn">Add Contact</button>
+                <button id="save-btn" style="display:none;">Save Contact</button>
+            </form>
+            <!-- Confirm Delete Message -->
+            <div id="confirm-delete" class="hidden">
+                <p>Are you sure you want to delete this contact?</p>
+                <button id="confirm-yes">Yes</button>
+                <button id="confirm-no">No</button>
+            </div>
+        </div>
+        <div class="address-container">
+            <h1 id="address-book-title">Address Book</h1>
+            <!-- Search Bar -->
+            <input type="text" id="search-bar" placeholder="Search...">
+            <!-- Display Contacts-->
+            <table id="contact-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Phone Number</th>
+                        <th>Address</th>
+                        <th></th>
+                    </tr>
+                </thead>
+            <tbody id="contact-list">
+                    <!-- Contact info will appear here | Refer to displayContacts() function in script.js -->
+            </tbody>
+            </table>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

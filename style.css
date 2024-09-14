@@ -1,0 +1,194 @@
+/* Citation: Help with CSS was taken from w3schools tutorials: https://www.w3schools.com/ */
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+body {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+#contact-form-container {
+    height: 100%;
+    width: 450px; 
+    position: fixed;
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background-color: #f4f0ec;
+    border-right: 2px groove #404040; 
+    padding-top: 20px;
+    float: left;
+}
+
+#error-message, #confirm-delete {
+    margin: 24px;
+    border: 2px solid #ff0000;
+    padding: 12px;
+    font-size: 16px;
+    text-align: center;
+    color: #ff0000;
+    background-color: #ffe6e6;
+}
+
+.hidden {
+    display: none;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 20px auto;    
+}
+
+#contact-form input {
+    padding: 12px;
+    margin: 5px 10px 5px 10px;
+    font-size: 16px;
+}
+
+#contact-form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+#add-btn, #save-btn {
+    cursor: pointer;
+    background-color: #008080;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin: 5px 10px 5px 10px;
+    font-size: 16px;
+}
+
+#add-btn:hover, #save-btn:hover  {
+    cursor: pointer;
+    background-color: #109090;
+    color: white;
+}
+
+.address-container {
+    position: absolute;
+    top: 0; 
+    width: 100%;
+    margin-left: 440px;
+}
+
+h1 {
+    background-color: #109090;
+    margin: 0;
+    padding: 28px;
+    text-align: left;
+    color: whitesmoke;
+}
+
+#search-bar {
+    display: block;
+    width: 680px;
+    margin: 24px 0px 24px 24px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+#contact-table {
+    width: 68%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+#contact-table thead {
+    background-color: whitesmoke;
+}
+
+#contact-table th {
+    background-color: #404040;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #dddd;
+}
+
+#contact-table tbody {
+    background-color: whitesmoke;
+}
+
+#contact-table td {
+    padding: 12px;
+    border-bottom: 1px solid #dddd; 
+}
+
+#contact-list {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: whitesmoke;
+    padding: 24px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact-list-headings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 2px solid #dddd;
+}
+
+#edit-btn, #delete-btn {
+    font-size: 24px;
+    margin-left: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: whitesmoke;
+}
+
+#edit-btn {
+    padding: 6px 6px 4px 10px;
+    color: #727272;
+}
+
+#delete-btn {
+    padding: 6px 12px;
+    color: #a42424;
+}
+
+#delete-btn:hover {
+    color: whitesmoke;
+    background-color: #800000;
+}
+
+#confirm-delete button {
+    font-size: 18px;
+    margin: 8px;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    color: whitesmoke;
+}
+
+#confirm-delete button#confirm-no {
+    background-color: #727272;
+}
+
+#confirm-delete button#confirm-yes {
+    background-color: #ff0000;
+}
+
+#confirm-delete button#confirm-yes:hover {
+    background-color: #a42424;
+}
+
+#confirm-delete button#confirm-no:hover {
+    background-color: #404040;
+}
+
+
+
