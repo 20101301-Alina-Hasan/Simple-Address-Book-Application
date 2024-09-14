@@ -52,5 +52,6 @@ A lightweight, interactive address book application built using HTML, CSS, and J
 
 ## Deployment 
 
-*Navigate to the [Address Book Demo Website](https://20101301-alina-hasan.github.io/Simple-Address-Book-Application/)*
+*Navigate to the [Address Book Demo Website](https://20101301-alina-hasan.github.io/Simple-Address-Book-Application/) and check it out for youself!*
+
 ![Simple Address Book Application Demo](Demo.png)
