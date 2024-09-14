@@ -9,7 +9,7 @@ A lightweight, interactive address book application built using HTML, CSS, and J
 - **Delete Contacts**: Remove contacts from the list.
 - **Search Contacts**: Filter contacts based on name, email, phone number, or address.
 
-## Technologies Used
+## Technologies 
 
 - **HTML5**: For structuring the content.
 - **CSS3**: For styling the UI elements and ensuring responsive design.
@@ -51,4 +51,5 @@ A lightweight, interactive address book application built using HTML, CSS, and J
 3. Open the `index.html` file in your browser to run the application.
 
 ## Deployment 
-- ** Navigate to [Address Book Demo Website](https://20101301-alina-hasan.github.io/Simple-Address-Book-Application/) **
+
+*Navigate to the [Address Book Demo Website](https://20101301-alina-hasan.github.io/Simple-Address-Book-Application/)*
